@@ -1,0 +1,11 @@
+@font-face {
+  font-family: work-sans;
+  src: url(../../WorkSans-VariableFont_wght.ttf);
+}
+.Header {
+  position: relative;
+  font-family: work-sans;
+}
+.top-purple {
+  width: 100%;
+}

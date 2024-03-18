@@ -1,0 +1,51 @@
+@font-face {
+  font-family: work-sans;
+  src: url(../WorkSans-VariableFont_wght.ttf);
+}
+.Content {
+  border-radius: 20px;
+  width: 40%;
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px 25px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-family: work-sans;
+}
+.items {
+  /* border-radius: 60%; */
+}
+.item {
+  background-color: hsl(0, 0%, 100%);
+  /* padding: 10px 20px;  */
+  /* border-radius: 10%; */
+}
+.question {
+  color: hsl(292, 42%, 14%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.question:hover {
+  color: hsl(292, 74%, 45%);
+}
+.answer {
+  color: hsl(292, 16%, 49%);
+}
+.answer.show {
+  display: none;
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+
+}
+.star-and-faq {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 24px;
+}
