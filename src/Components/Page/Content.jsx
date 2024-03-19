@@ -2,7 +2,7 @@ import React from "react";
 import "../../css/Content.css";
 import { useState } from "react";
 import Header from "../Header/Header";
-import starFaqHeader from "./starFaqHeader";
+
 
 function Content() {
   const [selected, setSelected] = useState(null);

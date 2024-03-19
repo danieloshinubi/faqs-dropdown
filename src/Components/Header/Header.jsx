@@ -1,5 +1,6 @@
 import React from "react";
 import Content from "../Page/Content";
+import './Header.css'
 
 const Header = () => {
   return (
@@ -7,8 +8,8 @@ const Header = () => {
       <div className="top-purple">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="341.5"
+        //   width="100%"
+        //   height="100%"
           fill="none"
           viewBox="0 0 1440 320"
         >
@@ -28,7 +29,7 @@ const Header = () => {
           </defs>
         </svg>
       </div>
-      <Content/>
+      <Content />
     </header>
   );
 };
